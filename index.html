@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semetongraphy Visuals | Fotografer Profesional & Creative Studio</title>
+  <meta name="description" content="Portfolio fotografer profesional untuk Wedding, Prewedding, Portrait, Studio, dan Event. Booking sesi foto langsung via WhatsApp.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-sub">PORTFOLIO OF</span>
+        <span class="brand-main">Semetongraphy<span>.</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Beranda</a></li>
+          <li><a href="#gallery" class="nav-link">Galeri</a></li>
+          <li><a href="#about" class="nav-link">Tentang</a></li>
+          <li><a href="#contact" class="nav-link">Kontak & Booking</a></li>
+        </ul>
+        <div class="nav-cta-mobile">
+          <a href="#contact" class="btn btn-primary btn-sm"><i class="fa-brands fa-whatsapp"></i> Chat WhatsApp</a>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline btn-sm nav-cta-desktop">
+          <i class="fa-brands fa-whatsapp"></i> Booking WA
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Buka Menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span> Tersedia Untuk Booking 
+      </div>
+      <h1 class="hero-title">
+        Mengabadikan Moment <br>
+        <span class="hero-italic"> Yang Tak Terulang</span>
+      </h1>
+      <p class="hero-desc">
+        Fotografer profesional, melayani dokumentasi Wedding, Prewedding, Potret Personal, dan Komersial dengan sentuhan sinematik berkelas.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#gallery" class="btn btn-primary">
+          <i class="fa-regular fa-images"></i> Jelajahi Karya
+        </a>
+        <a href="javascript:void(0)" onclick="quickWhatsAppChat()" class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> Hubungi WhatsApp
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">350+</span>
+          <span class="stat-label">Sesi Selesai</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">8+</span>
+          <span class="stat-label">Tahun Berkarya</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Klien Puas</span>
+        </div>
+      </div>
+    </div>
+    <a href="#gallery" class="scroll-down-indicator" aria-label="Scroll ke Galeri">
+      <span>Scroll</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ================= FEATURED HIGHLIGHT BANNER ================= -->
+  <section class="quick-banner">
+    <div class="container">
+      <div class="banner-grid">
+        <div class="banner-box">
+          <i class="fa-solid fa-camera-retro"></i>
+          <div>
+            <h4>Kamera & Lensa Terbaik</h4>
+            <p>Gear kelas profesional Sony/Canon Full-Frame resolusi tinggi.</p>
+          </div>
+        </div>
+        <div class="banner-box">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <div>
+            <h4>Grading Warna Eksklusif</h4>
+            <p>Color grading estetik khas editorial & film cinematic tone.</p>
+          </div>
+        </div>
+        <div class="banner-box">
+          <i class="fa-solid fa-bolt"></i>
+          <div>
+            <h4>Respon Cepat 24/7</h4>
+            <p>Konsultasi konsep dan cek ketersediaan jadwal instan via WA.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PORTFOLIO / GALLERY SECTION ================= -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">PORTFOLIO KARYA</span>
+        <h2 class="section-title">Galeri Pilihan</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Setiap foto memiliki narasi. Klik foto untuk melihat ukuran penuh atau langsung konsultasikan konsep serupa via WhatsApp.</p>
+      </div>
+
+      <!-- Gallery Filter -->
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">Semua Karya</button>
+        <button class="filter-btn" data-filter="wedding">Wedding & Adat</button>
+        <button class="filter-btn" data-filter="portrait">Portrait & Lamaran</button>
+        <button class="filter-btn" data-filter="events">Event & Wisuda</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+
+        <!-- Item 1: DSC00172.jpg -->
+        <div class="gallery-item" data-category="wedding">
+          <div class="gallery-card">
+            <img src="images/DSC00172.jpg" alt="Upacara Pernikahan Adat Pawawihan Bali" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Wedding & Adat</span>
+              <h3 class="gallery-name">Upacara Pawawihan Bali</h3>
+              <p class="gallery-location"><i class="fa-solid fa-location-dot"></i> Bali</p>
+              <div class="gallery-action-btns">
+                <button class="gallery-view-btn" onclick="openLightbox(this)" title="Lihat Penuh">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+                <button class="gallery-wa-btn" onclick="inquirePhoto('Upacara Pawawihan Bali - Wedding')" title="Tanya foto ini di WA">
+                  <i class="fa-brands fa-whatsapp"></i> Tanya Konsep
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: DSC00320.jpg -->
+        <div class="gallery-item" data-category="portrait">
+          <div class="gallery-card">
+            <img src="images/DSC00320.jpg" alt="Potret Anggun Kebaya dan Mahkota Emas" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Portrait & Lamaran</span>
+              <h3 class="gallery-name">Anggun Kebaya & Mahkota</h3>
+              <p class="gallery-location"><i class="fa-solid fa-location-dot"></i> Studio Indoor</p>
+              <div class="gallery-action-btns">
+                <button class="gallery-view-btn" onclick="openLightbox(this)" title="Lihat Penuh">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+                <button class="gallery-wa-btn" onclick="inquirePhoto('Anggun Kebaya & Mahkota - Portrait')" title="Tanya foto ini di WA">
+                  <i class="fa-brands fa-whatsapp"></i> Tanya Konsep
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: DSC00006.jpg -->
+        <div class="gallery-item" data-category="events">
+          <div class="gallery-card">
+            <img src="images/DSC00006.jpg" alt="Foto Wisuda Outdoor Toga dan Hijab Biru" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Event & Wisuda</span>
+              <h3 class="gallery-name">Graduation Joy in Blue</h3>
+              <p class="gallery-location"><i class="fa-solid fa-location-dot"></i> Area Kampus Outdoor</p>
+              <div class="gallery-action-btns">
+                <button class="gallery-view-btn" onclick="openLightbox(this)" title="Lihat Penuh">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+                <button class="gallery-wa-btn" onclick="inquirePhoto('Graduation Joy in Blue - Wisuda')" title="Tanya foto ini di WA">
+                  <i class="fa-brands fa-whatsapp"></i> Tanya Konsep
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4: DSC00012.jpg -->
+        <div class="gallery-item" data-category="events">
+          <div class="gallery-card">
+            <img src="images/DSC00012.jpg" alt="Dokumentasi Karnaval Seni Budaya Nusantara" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Event & Budaya</span>
+              <h3 class="gallery-name">Karnaval Seni Nusantara</h3>
+              <p class="gallery-location"><i class="fa-solid fa-location-dot"></i> Pentas Festival Budaya</p>
+              <div class="gallery-action-btns">
+                <button class="gallery-view-btn" onclick="openLightbox(this)" title="Lihat Penuh">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+                <button class="gallery-wa-btn" onclick="inquirePhoto('Karnaval Seni Nusantara - Budaya')" title="Tanya foto ini di WA">
+                  <i class="fa-brands fa-whatsapp"></i> Tanya Konsep
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5: IMG_9234.jpg -->
+        <div class="gallery-item" data-category="events">
+          <div class="gallery-card">
+            <img src="images/IMG_9234.jpg" alt="Foto Wisuda Kebaya Maroon Full Body" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Event & Wisuda</span>
+              <h3 class="gallery-name">Wisuda Kebaya Maroon</h3>
+              <p class="gallery-location"><i class="fa-solid fa-location-dot"></i> Jalur Taman Kampus</p>
+              <div class="gallery-action-btns">
+                <button class="gallery-view-btn" onclick="openLightbox(this)" title="Lihat Penuh">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+                <button class="gallery-wa-btn" onclick="inquirePhoto('Wisuda Kebaya Maroon - Wisuda')" title="Tanya foto ini di WA">
+                  <i class="fa-brands fa-whatsapp"></i> Tanya Konsep
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="gallery-cta">
+        <p>Punya konsep khusus atau ingin melihat portfolio lengkap lainnya?</p>
+        <button class="btn btn-outline" onclick="openCustomCatalogWA()">
+          <i class="fa-brands fa-whatsapp"></i> Minta Katalog PDF Lengkap via WhatsApp
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-wrapper">
+        <div class="about-image-col">
+          <div class="about-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=900&q=80" alt="Fotografer Profesional Sedang Memotret" class="about-img">
+            <div class="about-experience-badge">
+              <span class="years">8+</span>
+              <span class="text">Tahun Menemani Momen Berharga</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content-col">
+          <span class="section-tag">TENTANG FOTOGRAFER</span>
+          <h2 class="about-title">"Bagi Saya, Foto Bukan Hanya Soal Gambar — Tapi Kenangan Yang Bisa Dirasakan Kembali."</h2>
+          <p class="about-lead">
+            Halo! Saya <strong>HAIRUR ROZI</strong>, fotografer independen dan visual storyteller. Berawal dari kecintaan terhadap keindahan cahaya alami dan emosi murni manusia, saya mendedikasikan waktu saya untuk mengabadikan momen yang tak bisa diulang.
+          </p>
+          <p class="about-text">
+            Pendekatan saya adalah memadukan estetika <em>documentary</em> yang natural tanpa kaku, dengan sentuhan <em>editorial fine-art</em>. Anda tidak perlu khawatir jika merasa kaku di depan kamera — saya akan memandu setiap pose dengan santai dan menyenangkan.
+          </p>
+          <div class="about-action">
+            <a href="javascript:void(0)" onclick="quickWhatsAppChat('Halo Kak Hairur Rozi, saya mau ngobrol seputar konsep pemotretan SemetonGraphy')" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> Ngobrol Langsung dengan Hairur Rozi
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BOOKING & WHATSAPP INTEGRATION SECTION ================= -->
+  <section class="booking-section" id="contact">
+    <div class="container">
+      <div class="booking-wrapper">
+        <div class="booking-info">
+          <span class="section-tag">RESERVASI JADWAL</span>
+          <h2 class="booking-title">Mari Rencanakan Sesi Pemotretan Impian Anda</h2>
+          <p class="booking-desc">
+            Isi formulir ringkas di samping. Sistem akan secara otomatis menyusun format pesan rapi dan membukanya langsung di WhatsApp Anda untuk konfirmasi instan!
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-row">
+              <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <span class="label">WhatsApp Resmi:</span>
+                <span class="value" id="dispWaNumber">+62 896-8665-7858</span>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-icon"><i class="fa-brands fa-instagram"></i></div>
+              <div>
+                <span class="label">Instagram Portfolio:</span>
+                <a href="https://www.instagram.com/semetongraphy?rpxt=MTRlbmQ3bWN6ZHBzaw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="value" style="color: var(--accent-gold-light);">@semetongraphy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="booking-guarantee">
+            <i class="fa-solid fa-shield-halved"></i>
+            <div>
+              <h5>Bebas Konsultasi Tanpa Biaya</h5>
+              <p>Diskusikan moodboard, lokasi, dan tanggal tanpa komitmen awal.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Form -->
+        <div class="booking-form-box">
+          <h3 class="form-title"><i class="fa-brands fa-whatsapp text-wa"></i> Formulir Booking Instan WA</h3>
+          <p class="form-subtitle">Data di bawah langsung diformat menjadi pesan WhatsApp.</p>
+
+          <form id="whatsappBookingForm" onsubmit="handleFormSubmit(event)">
+            <div class="form-group">
+              <label for="clientName"><i class="fa-regular fa-user"></i> Nama Lengkap Anda <span class="required">*</span></label>
+              <input type="text" id="clientName" class="form-control" placeholder="Contoh: Sarah Angelina" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-half">
+                <label for="packageSelect"><i class="fa-solid fa-camera"></i> Kategori Sesi Pemotretan <span class="required">*</span></label>
+                <select id="packageSelect" class="form-control" required>
+                  <option value="" disabled selected>-- Pilih Kategori Layanan --</option>
+                  <option value="Wedding & Prewedding">Wedding & Prewedding</option>
+                  <option value="Personal & Portrait">Personal & Portrait</option>
+                  <option value="Event & Wisuda">Event & Wisuda</option>
+                  <option value="Komersial & Brand">Komersial & Produk</option>
+                  <option value="Custom / Tanya Dulu">Lainnya / Mau Tanya Dulu</option>
+                </select>
+              </div>
+
+              <div class="form-group col-half">
+                <label for="shootDate"><i class="fa-regular fa-calendar"></i> Rencana Tanggal</label>
+                <input type="date" id="shootDate" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="shootLocation"><i class="fa-solid fa-map-pin"></i> Rencana Lokasi / Kota Pemotretan</label>
+              <input type="text" id="shootLocation" class="form-control" placeholder="Contoh: Jakarta / Bali / Studio Indoor">
+            </div>
+
+            <div class="form-group">
+              <label for="clientNotes"><i class="fa-regular fa-comment-dots"></i> Catatan Khusus / Konsep yang Diinginkan</label>
+              <textarea id="clientNotes" class="form-control" rows="3" placeholder="Ceritakan konsep, tema baju, jumlah orang, atau pertanyaan Anda..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-whatsapp btn-block btn-lg">
+              <i class="fa-brands fa-whatsapp"></i> Kirim Pesan Booking via WhatsApp
+            </button>
+            <span class="form-hint"><i class="fa-solid fa-lock"></i> Tidak perlu login. Otomatis membuka aplikasi WhatsApp Anda.</span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#home" class="nav-brand">
+          <span class="brand-sub">PORTFOLIO OF</span>
+          <span class="brand-main">SemetonGraphy<span>.</span></span>
+        </a>
+        <p>Menyimpan kisah hidup dalam keindahan visual berkelas sejak 2018. Melayani pemotretan di seluruh wilayah Indonesia dan destinasi mancanegara.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/semetongraphy?rpxt=MTRlbmQ3bWN6ZHBzaw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram @semetongraphy"><i class="fa-brands fa-instagram"></i></a>
+          <a href="javascript:void(0)" onclick="quickWhatsAppChat()" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigasi Cepat</h4>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#gallery">Portfolio Karya</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#contact">Formulir Booking</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-settings-box">
+        <h4>Pengaturan Kontak</h4>
+        <div class="contact-pill">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span id="footerWaNumber">+62 896-8665-7858</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p>&copy; <span id="currentYear"></span> SemetonGraphy. Seluruh hak cipta dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= LIGHTBOX MODAL ================= -->
+  <div class="lightbox" id="lightboxModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox-backdrop" onclick="closeLightbox()"></div>
+    <div class="lightbox-container">
+      <button class="lightbox-close" onclick="closeLightbox()" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+      <div class="lightbox-media">
+        <img id="lightboxImg" src="" alt="Full view">
+      </div>
+      <div class="lightbox-meta">
+        <div class="lightbox-text">
+          <span id="lightboxCategory" class="lightbox-badge">Kategori</span>
+          <h3 id="lightboxTitle">Judul Foto</h3>
+          <p id="lightboxLocation"><i class="fa-solid fa-location-dot"></i> Lokasi</p>
+        </div>
+        <div class="lightbox-action">
+          <button id="lightboxWaBtn" class="btn btn-whatsapp btn-sm">
+            <i class="fa-brands fa-whatsapp"></i> Tanya Konsep Foto Ini
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= FLOATING WHATSAPP BUTTON & POPUP WIDGET ================= -->
+  <div class="wa-floating-widget" id="waWidget">
+    <!-- Popup Chat Bubble -->
+    <div class="wa-popup" id="waPopup">
+      <div class="wa-popup-header">
+        <div class="wa-avatar-box">
+          <img src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=120&q=80" alt="Artha Fotografer">
+          <span class="online-indicator"></span>
+        </div>
+        <div class="wa-header-info">
+          <h4>SemetonGraphy</h4>
+          <span>Online &bull; Siap merespon</span>
+        </div>
+        <button class="wa-popup-close" onclick="toggleWaPopup()" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="wa-popup-body">
+        <div class="wa-chat-bubble">
+          <p>Halo! 👋 Terima kasih sudah mampir ke portfolio kami. Ada konsep pemotretan atau tanggal acara yang ingin Anda tanyakan?</p>
+          <span class="chat-time" id="chatTime">Baru saja</span>
+        </div>
+      </div>
+      <div class="wa-popup-footer">
+        <button class="btn btn-whatsapp btn-block" onclick="quickWhatsAppChat('Halo Min, saya mau tanya informasi paket foto dan ketersediaan jadwal')">
+          <i class="fa-brands fa-whatsapp"></i> Mulai Chat WhatsApp
+        </button>
+      </div>
+    </div>
+
+    <!-- Floating Bubble Trigger -->
+    <button class="wa-trigger" id="waTrigger" onclick="toggleWaPopup()" aria-label="Buka WhatsApp Chat">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="wa-tooltip">Chat Sekarang</span>
+      <span class="wa-pulse"></span>
+    </button>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
